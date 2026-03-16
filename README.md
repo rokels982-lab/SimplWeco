@@ -1,0 +1,2 @@
+# SimplWeco
+Minimalist web browser
