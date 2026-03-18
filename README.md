@@ -1,7 +1,7 @@
 # SimplWeco
-Minimalist web browser
 SimplWeco Browser
 A lightweight and minimalist web browser built for simplicity.
+Reminds a 2011 nostalgia.
 
 Features
 Fast & Minimalist: No cluttered menus or unnecessary bars.
