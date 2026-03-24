@@ -1,5 +1,5 @@
 # SimplWeco
-SimplWeco Browser
+
 A lightweight and minimalist web browser built for simplicity.
 Reminds a 2011 nostalgia.
 !!!Warning!!! On your computer, when you download and launch, Windows will say, that this is a malicious app, but its actually not so press "Run Anyway"
