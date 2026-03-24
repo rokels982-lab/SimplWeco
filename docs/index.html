@@ -1,22 +1,42 @@
 <!DOCTYPE html>
-<html>
+<html lang="lt">
 <head>
+    <meta charset="UTF-8">
     <title>SimplWeco - Nostalgic Browser</title>
     <style>
-        body { font-family: 'Segoe UI', Tahoma, sans-serif; background: #e1e9f5; text-align: center; color: #333; }
-        .container { width: 600px; margin: 50px auto; background: white; padding: 20px; border: 1px solid #adc5e7; border-radius: 8px; box-shadow: 0 4px 15px rgba(0,0,0,0.1); }
-        .download-btn { background: linear-gradient(#4da6ff, #0059b3); color: white; padding: 15px 30px; text-decoration: none; border-radius: 5px; font-weight: bold; display: inline-block; margin-top: 20px; }
-        img { max-width: 100%; border: 1px solid #ccc; margin-top: 15px; }
+        body { font-family: 'Segoe UI', Tahoma, sans-serif; background: #f0f5fa; text-align: center; color: #333; padding-top: 50px; }
+        .container { max-width: 600px; margin: 0 auto; background: white; padding: 30px; border: 1px solid #adc5e7; border-radius: 10px; box-shadow: 0 4px 15px rgba(0,0,0,0.1); }
+        h1 { font-size: 42px; margin-bottom: 10px; color: #1a1a1a; }
+        .screenshot { width: 100%; max-width: 400px; border: 1px solid #ccc; margin: 20px 0; border-radius: 4px; }
+        .download-btn { 
+            background: linear-gradient(#4da6ff, #0059b3); 
+            color: white !important; 
+            padding: 15px 35px; 
+            text-decoration: none; 
+            border-radius: 5px; 
+            font-weight: bold; 
+            display: inline-block; 
+            margin: 20px 0;
+            font-size: 18px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+        }
+        .download-btn:hover { background: linear-gradient(#66b3ff, #004d99); }
+        .github-link { color: #0059b3; text-decoration: none; display: block; margin-top: 15px; }
     </style>
 </head>
 <body>
     <div class="container">
         <h1>SimplWeco</h1>
         <p>Lengva, paprasta ir dvelkianti 2011-ųjų nostalgija.</p>
-        <img src="tavo_nuotrauka.jpg" alt="SimplWeco Screenshot">
+        
+        <!-- Pakeisk 'screenshot.jpg' į savo nuotraukos pavadinimą -->
+        <img src="Kliop.png" alt="SimplWeco Screenshot" class="screenshot">
+        
         <br>
-        <a href="SimplWeco.exe" class="download-btn">Atsisiųsti (EXE)</a>
-        <p><a href="https://github.com">Peržiūrėti kodą GitHub</a></p>
+        <!-- ČIA ĮKLIJUOK TĄ ILGĄ NUORODĄ IŠ RELEASES -->
+        <a href="https://github.com/rokels982-lab/SimplWeco/releases/download/v1.0/SimplWeco.exe" class="download-btn">Atsisiųsti (EXE)</a>
+        
+        <a href="https://github.com" class="github-link">Peržiūrėti kodą GitHub</a>
     </div>
 </body>
 </html>
